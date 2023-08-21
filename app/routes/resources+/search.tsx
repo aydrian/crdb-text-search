@@ -119,7 +119,7 @@ export function ItemCombobox({
                   className={cn(
                     cb.highlightedIndex === index && "bg-green-100",
                     cb.selectedItem === item && "font-bold",
-                    "flex items-center gap-1 gap-2 px-3 py-2 shadow-sm"
+                    "flex items-center gap-2 px-3 py-2 shadow-sm"
                   )}
                   key={item.id}
                   {...cb.getItemProps({ index, item })}
